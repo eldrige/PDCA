@@ -234,7 +234,7 @@ export const footerData2: FooterProps = {
   columns: [
     {
       title: 'Address',
-      texts: ['51 Phasellus Avenue Maecenas', 'Aliquam, AQ 52098'],
+      texts: ['Biaka Junction', 'Buea, Cameroon'],
     },
     {
       title: 'Phone',
@@ -258,10 +258,10 @@ export const footerData2: FooterProps = {
       Made by{' '}
       <a
         className="font-semibold text-slate-900 dark:text-gray-200 hover:text-blue-600 hover:underline dark:hover:text-blue-600"
-        href="https://onwidget.com/"
+        href="https://falcon-innovcm.com/"
       >
         {' '}
-        onWidget
+        Falcon Innovations
       </a>{' '}
       · All rights reserved.
     </div>

@@ -36,9 +36,9 @@ export default function Page() {
   return (
     <>
       <Hero {...heroHome} />
-      {/* <SocialProof {...socialProofHome} />
+      {/* <SocialProof {...socialProofHome} /> */}
       <Features {...featuresHome} />
-      <Content {...contentHomeOne} />
+      {/* <Content {...contentHomeOne} />
       <Content {...contentHomeTwo} />
       <Steps {...stepsHome} />
       <Testimonials {...testimonialsHome} />

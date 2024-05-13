@@ -5,6 +5,6 @@ module.exports.SITE = {
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'PDCA — Purpose Driven Counselling Center',
+  title: 'PDCA — Purpose Driven Counselling Association',
   description: 'Passion, Determination and Success.',
 };

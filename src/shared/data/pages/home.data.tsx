@@ -40,18 +40,18 @@ import gasImg from '~/assets/images/gas.jpg';
 
 // Hero data on Home page *******************
 export const heroHome: HeroProps = {
-  title: <>Educating the community and inspiring the homeless</>,
+  title: <>Educating the community and inspiring adolescents</>,
   subtitle: (
     <>
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          PDCC
+          PDCA
         </span>{' '}
-        Illuminating the Path to Success for Homeless Children and Empowering them to Build a Brighter Future.
+        Illuminating the Path to Success for adolescents and Empowering them to Build a Brighter Future.
       </span>{' '}
       <br />
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      {/* It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
+      optimization. */}
     </>
   ),
   callToAction: {
@@ -104,75 +104,29 @@ export const featuresHome: FeaturesProps = {
   hasBackground: false,
   columns: 3,
   header: {
-    title: (
-      <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
-      </>
-    ),
+    title: 'Empowering Cameroonians',
     subtitle:
-      "Elevating Your Digital Presence: Discover the Synergies Unleashed in Our Platform's Core Strengths, from Seamless Integration to Open Collaboration.",
-    tagline: 'Features',
+      "We are PCDA, united by a common purpose and proud of our unique identity. Our mission is to uplift every indigent Cameroonian, without bias or discrimination. We are dedicated to building a stronger Cameroon community based on the principles of humanitarianism, care, peace, justice, and progress. Through our national community-based NGO, we strive to ensure the well-being of all, and we welcome collaboration from like-minded stakeholders who share our vision. Together, let's make a positive difference..",
+    tagline: 'Mission',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: 'Unleashing Potential: Empowering Youth for Purposeful Living',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+        'Reaching out to youths and adolescents and enable them to discover their hidden potentials and work towards achieving their purpose in life',
       icon: IconBrandTailwind,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
     },
     {
-      title: 'Ready-to-use Components',
+      title: 'Building Independent Youth: Empowering Positive Contributions',
       description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+        'We envisage a community where youths become independent and capable of contributing positively in the society',
       icon: IconComponents,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
     },
     {
-      title: 'Best Practices',
+      title: ' Creating a Thriving Community: Eradicating Illiteracy, Unemployment, and Inequality',
       description:
-        'By prioritizing maintainability and scalability through coding standards and design principles, your website stays robust and efficient.',
+        'We are looking forward to building a community free from illiteracy and unemployment, violence and discrimination, fear and poverty',
       icon: IconListCheck,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Excellent Page Speed',
-      description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-      icon: IconRocket,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Search Engine Optimization (SEO)',
-      description:
-        "Boost online visibility with our SEO-friendly website. Effective strategies and practices enhance your website's search engine ranking, making it easier for users to find your content.",
-      icon: IconArrowsRightLeft,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Open to new ideas and contributions',
-      description:
-        'We welcome new ideas and contributions to our platform. Whether you have feature suggestions, want to contribute code, or share insights, our platform is open for collaboration.',
-      icon: IconBulb,
-      callToAction: {
-        text: 'Discover now',
-        href: '/',
-      },
     },
   ],
 };

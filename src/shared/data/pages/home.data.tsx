@@ -244,15 +244,13 @@ export const testimonialsHome: TestimonialsProps = {
   id: 'testimonials-on-home',
   hasBackground: true,
   header: {
-    title: 'What our customers say about us',
-    subtitle:
-      'Etiam sed odio et dolor auctor gravida. Curabitur tincidunt elit non risus pharetra sodales. Etiam sit amet mattis massa.',
+    title: 'What people say about us',
   },
   testimonials: [
     {
       name: 'Tayla Kirsten',
-      job: 'Marketing Manager',
-      testimonial: `I'm impressed by the speed and performance of these templates. My website now loads in the blink of an eye, significantly enhancing my visitors' experience. Thanks to TailNext, my online business is thriving.`,
+      job: 'A safe haven',
+      testimonial: `The counseling association created a welcoming and non-judgmental environment where I felt safe to express my thoughts and emotions. The counselors were empathetic and genuinely interested in my well-being, making the entire experience incredibly beneficial.`,
       image: {
         src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Tayla Kirsten',
@@ -261,8 +259,8 @@ export const testimonialsHome: TestimonialsProps = {
     },
     {
       name: 'Silver Jordan',
-      job: 'Senior Marketer',
-      testimonial: `I had never found it so easy to customize a website. TailNext's templates are incredibly flexible, and with Tailwind CSS, I've managed to give my website the look and feel I always wanted. Highly recommended!`,
+      job: 'Empowering and empathetic',
+      testimonial: `The counseling association empowered me to take control of my mental well-being. The counselors were empathetic listeners who provided validation and encouragement, helping me build resilience and overcome personal obstacles`,
       image: {
         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Silver Jordan',
@@ -271,8 +269,8 @@ export const testimonialsHome: TestimonialsProps = {
     },
     {
       name: 'Kelsey Arden',
-      job: 'Co-Founder & CEO',
-      testimonial: `As a beginner in web development, I really needed clear guidance. Tailnext made it possible. I was able to install and customize my website seamlessly, and I'm thrilled with the results!`,
+      job: 'Holistic approach',
+      testimonial: `The counseling association took a holistic approach to mental health, addressing not only my immediate concerns but also exploring the underlying factors contributing to my challenges. This comprehensive approach allowed for a deeper understanding and more effective treatment.`,
       image: {
         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Kelsey Arden',
@@ -559,7 +557,7 @@ export const contactHome: ContactProps = {
   hasBackground: true,
   header: {
     title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    subtitle: 'Feel free to reach out to use, through any of these means',
     tagline: 'Contact',
   },
   content:
@@ -567,12 +565,12 @@ export const contactHome: ContactProps = {
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['Biaka Junction', 'Buea, Cameroon'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Mobile: +237 679989472', 'Mail: chindongk@gmail.com '],
       icon: IconPhoneCall,
     },
     {

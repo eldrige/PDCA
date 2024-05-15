@@ -69,8 +69,8 @@ export const headerData: HeaderProps = {
   ],
   actions: [
     {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
+      text: 'Get started',
+      href: '#',
       targetBlank: true,
     },
   ],
@@ -238,11 +238,11 @@ export const footerData2: FooterProps = {
     },
     {
       title: 'Phone',
-      texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],
+      texts: ['Reception: +237 679989472', 'Office: +237 676159340'],
     },
     {
       title: 'Email',
-      texts: ['Office: info@example.com', 'Site: https://example.com'],
+      texts: ['Office: chindongk@gmail.com', 'Site: nancykeng79@gmail.com'],
     },
   ],
   socials: [
